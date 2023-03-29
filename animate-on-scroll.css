@@ -1,0 +1,66 @@
+.animate {
+    opacity: 0;
+    filter: blur(3px);
+    transition: 1s;
+}
+
+.animate.from-top {
+    transform: translateY(-150%);
+}
+
+.animate.from-left {
+    transform: translateX(-100%);
+}
+
+.animate.from-right {
+    transform: translateX(100%);
+}
+
+.animate.show {
+    transform: translate(0);
+    filter: blur(0);
+    opacity: 1;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    font-family: 'Lexend', sans-serif;
+}
+
+p {
+    font-family: 'Courgette', cursive;
+}
+
+footer {
+    font-family: 'Courgette', cursive;
+
+}
+
+.efeito {
+    transition: transform 1s;
+    transform: translateX(0) scale(0.9);
+}
+
+.efeito :hover {
+    transform: translateX(10px) scale(1.2);
+}
+
+span{
+    color: rgba(34, 0, 255, 0.712);
+
+}
+
+.front-end{
+    color: rgba(255, 68, 146, 0.692);
+}
+
+.valorant{
+    color: rgba(0, 0, 0, 0.628);
+}
+
+main{
+    background-color: rgba(68, 68, 68, 0.524);
+}
